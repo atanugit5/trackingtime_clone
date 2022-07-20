@@ -19,7 +19,7 @@ const Navbar = () => {
               style={{
                 textDecoration: "none",
                 color: "#282828",
-                fontSize: "0.7rem",
+                fontSize: "0.8rem",
                 fontWeight: "600",
               }}
               to="/integrations"
@@ -30,7 +30,7 @@ const Navbar = () => {
               style={{
                 textDecoration: "none",
                 color: "#282828",
-                fontSize: "0.7rem",
+                fontSize: "0.8rem",
                 fontWeight: "600",
               }}
               to="/blog"
@@ -42,7 +42,7 @@ const Navbar = () => {
                 style={{
                   textDecoration: "none",
                   color: "#282828",
-                  fontSize: "0.7rem",
+                  fontSize: "0.8rem",
                   fontWeight: "600",
                 }}
                 to="/features"
@@ -58,7 +58,7 @@ const Navbar = () => {
                 <br />
                 <br />
                 <br />
-                <Link style={{textDecoration:"none",color:"black"}}to="">Project Managment</Link>
+                <Link style={{textDecoration:"none",color:"black"}}to="/project-management">Project Managment</Link>
                 <br />
                 <br />
                 <br />
@@ -66,7 +66,7 @@ const Navbar = () => {
                 <br />
                 <br />
                 <br />
-                <Link style={{textDecoration:"none",color:"black"}}to="">Time Card</Link>
+                <Link style={{textDecoration:"none",color:"black"}}to="/time-cards">Time Card</Link>
                 <br />
                 <br />
                 <br />
