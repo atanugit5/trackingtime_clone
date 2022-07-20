@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";;
+}
+.main{
+    background-color: rgb(246,248,249);
+
+}
+.heading > .heading_para {
+    padding-top: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 10rem;
+    color: #282828;
+    text-align: center;
+}
+.left_image_1>.left_img{
+    width: 38rem;
+    margin-left: 10rem;
+}
+.right_text1>p{
+    font-weight: 700;
+    font-size: 1.9rem;
+    /* line-height:15rem; */
+    color: #1d252c;
+    padding-top:5rem;
+    padding-left: 4rem;
+    padding-right: 14rem;
+}
+.image_Content_1{
+    display: flex;
+    padding-top: 5rem;
+}
+.right_text1>.right_para{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #7f8488;
+    line-height:1.7rem;
+    margin-top: -1.3rem;
+}
+.right_text1>.right_para>.right_text_a{
+    color: #72777c;
+    text-decoration: underline;
+    font-weight: 700;
+    
+}
+.right_text1>.right_para>.right_text_a:hover{
+    text-decoration: none;
+}
+
+.left_image_2>.left_img1{
+    width: 38rem;
+    margin-right: 11rem;
+}
+.right_text2>p{
+    font-weight: 700;
+    font-size: 1.9rem;
+    /* line-height:15rem; */
+    color: #1d252c;
+    padding-top:5rem;
+    padding-left: 10rem;
+    padding-right: 6rem;
+
+}
+.image_Content_2{
+    display: flex;
+    padding-top: 6rem;
+}
+.right_text2>.right_para1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #7f8488;
+    line-height:1.7rem;
+    margin-top: -1.3rem;
+}
+.text{
+    color: #72777c;
+    font-weight: 700;
+}
+
+.right_text3>.right_para3>.right_text_a{
+    color: #72777c;
+    text-decoration: underline;
+    font-weight: 700;
+    
+}
+.right_text3>.right_para3>.right_text_a:hover{
+    text-decoration: none;
+}
+
+.right_text3>.right_para3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #7f8488;
+    line-height:1.7rem;
+    margin-top: -1.3rem;
+}
+.image_Content_3{
+    display: flex;
+    padding-top: 6rem;
+}
+.right_text3>p{
+    font-weight: 700;
+    font-size: 1.9rem;
+    /* line-height:15rem; */
+    color: #1d252c;
+    padding-top:5rem;
+    padding-left: 10rem;
+    padding-right: 4rem;
+
+}
+
+.heading1 > .heading_para1 {
+    padding-top: 2rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 10rem;
+    color: #282828;
+    text-align: center;
+}
+
+.start_Button{
+   
+    margin-left: 40rem;
+}
+.start_Button>button{
+    border: none;
+    font-size: 1rem;
+    text-transform:uppercase;
+    background-color: rgb(0,173,149);
+    color: white;
+    height:2.4rem;
+    width:15rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+    transition:all 0.5s;
+    margin-bottom: 7rem;
+
+}
+.start_Button>button:hover{
+    background-color: #000;
+    color: white;
+    transition:all 0.5s;
+}
+.cards{
+    display: flex;
+    margin:6rem;
+}
+.card_1>img{
+width:15rem;
+margin-left: 5rem;
+/* height:30rem; */
+}
+.card_title{
+    margin-left: 4rem;
+    text-align: center;
+    font-weight:500;
+}
+.card_para{
+    margin-left: 5rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+
+
+.main_tasks_section{
+    display: flex;
+    margin-left: 12rem;
+    margin-top: 10rem;
+}
+.image_tasks_section>img{
+width:40rem;
+margin-left: 4rem;
+margin-top: -3rem;
+
+}
+.right_tasks_section>.make,.assign,.duplicate{
+    margin-top: 1.2rem;
+}
+.make{
+    background-color: rgb(40,40,40);
+    width:35rem;
+ color: white;
+ font-size: 1.4rem;
+ font-weight: 700;
+ padding:1.6rem;
+ border-radius: 0.5rem;
+ box-shadow: rgba(0, 0, 0, 0.2) 5px 15px 24px;
+}
+.assign{
+    background-color: rgb(246,248,249);
+    width:35rem;
+ color: rgb(0, 0, 0);
+ font-size: 1.4rem;
+ font-weight: 700;
+ padding:1.6rem;
+  border-radius: 0.5rem;
+ box-shadow: rgba(0, 0, 0, 0.2) 5px 15px 24px;
+}
+.duplicate{
+    background-color: rgb(246,248,249);
+    width:35rem;
+ color: rgb(0, 0, 0);
+ font-size: 1.4rem;
+ font-weight: 700;
+ padding:1.6rem;
+ border-radius: 0.5rem;
+ box-shadow: rgba(0, 0, 0, 0.2) 5px 15px 24px;
+}
