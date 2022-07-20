@@ -33,7 +33,7 @@
   border: 2px solid #0bb19a;
   border-radius: 5px;
   height: 6vh;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
   width: 10vw;
   color: #0bb19a;
@@ -47,10 +47,10 @@
   transition: all 0.5s;
 }
 .skc122 {
-  border: 1px solid #0bb19a;
+  border: 2px solid #0bb19a;
   border-radius: 5px;
   height: 6vh;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
   width: 10vw;
   color: white;
@@ -58,7 +58,7 @@
 }
 
 .skc122:hover {
-  border: 1px solid #0bb19a;
+  border: 2px solid #0bb19a;
   background-color: #f6f8f9;
   transition: all 0.5s;
   color: #0bb19a;
@@ -68,9 +68,9 @@
   height: 63vh;
   /* border:1px solid red; */
   width: 20vw;
-  top: 7vh;
-  right: 220px;
-  font-size: 0.7rem;
+  top: 7.5vh;
+  right: 22vw;
+  font-size: 0.8rem;
   font-weight: 600;
   background-color: white;
   display: none;
@@ -88,8 +88,8 @@
 .skhover h2 {
   height: 0.1vh;
   width: 0.1vw;
-  margin-top: -8%;
-  margin-left: -6%;
+  margin-top: -5%;
+  margin-left: -5%;
 }
 
 .skhover:hover .skc123 {
