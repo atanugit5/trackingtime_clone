@@ -20,7 +20,7 @@ const Navbar = () => {
                 textDecoration: "none",
                 color: "#282828",
                 fontSize: "0.8rem",
-                fontWeight: "600",
+                fontWeight: "700",
               }}
               to="/integrations"
             >
@@ -31,7 +31,7 @@ const Navbar = () => {
                 textDecoration: "none",
                 color: "#282828",
                 fontSize: "0.8rem",
-                fontWeight: "600",
+                fontWeight: "700",
               }}
               to="/blog"
             >
@@ -43,7 +43,7 @@ const Navbar = () => {
                   textDecoration: "none",
                   color: "#282828",
                   fontSize: "0.8rem",
-                  fontWeight: "600",
+                  fontWeight: "700",
                 }}
                 to="/features"
               >
@@ -54,27 +54,27 @@ const Navbar = () => {
               </h2>
               <div className={styles.skc123}>
                 <br />
-                <Link style={{textDecoration:"none",color:"black"}}to="">Time Tracker</Link>
+                <Link style={{fontWeight: "700",textDecoration:"none",color:"black",}}to="">Time Tracker</Link>
                 <br />
                 <br />
                 <br />
-                <Link style={{textDecoration:"none",color:"black"}}to="/project-management">Project Managment</Link>
+                <Link style={{fontWeight: "700",textDecoration:"none",color:"black"}}to="/project-management">Project Managment</Link>
                 <br />
                 <br />
                 <br />
-                <Link style={{textDecoration:"none",color:"black"}}to="">Online Timesheet</Link>
+                <Link style={{fontWeight: "700",textDecoration:"none",color:"black"}}to="">Online Timesheet</Link>
                 <br />
                 <br />
                 <br />
-                <Link style={{textDecoration:"none",color:"black"}}to="/time-cards">Time Card</Link>
+                <Link style={{fontWeight: "700",textDecoration:"none",color:"black"}}to="/time-cards">Time Card</Link>
                 <br />
                 <br />
                 <br />
-                <Link style={{textDecoration:"none",color:"black"}}to="">Attendance Tracking</Link>
+                <Link style={{fontWeight: "700",textDecoration:"none",color:"black"}}to="">Attendance Tracking</Link>
                 <br />
                 <br />
                 <br />
-                <Link style={{textDecoration:"none",color:"black"}} to="">Time Reporting</Link>
+                <Link style={{fontWeight: "700",textDecoration:"none",color:"black"}} to="">Time Reporting</Link>
               </div>
             </div>
 
