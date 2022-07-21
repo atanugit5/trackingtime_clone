@@ -79,7 +79,7 @@ const Navbar = () => {
             </div>
 
             <button className={styles.skc121}>TRY IT FREE</button>
-            <button className={styles.skc122}><Link style={{textDecoration:"none",color:"white"}} to="/login">Login</Link></button>
+           <Link style={{textDecoration:"none"}} to="/login"> <button className={styles.skc122}>Login</button></Link>
           </div>
         </div>
       </div>
