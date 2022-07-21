@@ -33,7 +33,7 @@ const Navbar = () => {
                 fontSize: "0.8rem",
                 fontWeight: "600",
               }}
-              to="/blog"
+              to="/blog/blogs"
             >
               BLOG
             </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
             </div>
 
             <button className={styles.skc121}>TRY IT FREE</button>
-            <button className={styles.skc122}>Login</button>
+            <button className={styles.skc122}><Link style={{textDecoration:"none",color:"white"}} to="/login">Login</Link></button>
           </div>
         </div>
       </div>
