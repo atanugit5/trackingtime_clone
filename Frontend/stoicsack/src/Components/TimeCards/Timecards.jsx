@@ -1,8 +1,12 @@
 import React from 'react'
-// import styles from './Timecards.module.css';
+import styles from './Timecards.module.css';
+import Navbar from "../Navbar/Navbar";
 const Timecards = () => {
   return (
-    <div>Timecards</div>
+    <div>
+    <div><Navbar/></div>
+    <div className={styles.heading}>Timecards</div>
+    </div>
   )
 }
 
