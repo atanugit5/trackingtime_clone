@@ -9,7 +9,7 @@ import Timecards from "../TimeCards/Timecards";
 export const AllRoutes = () => {
   return (
     <>
-      <br />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project-management" element={<Managament />} />

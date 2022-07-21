@@ -9,12 +9,11 @@
 .ska112 {
   margin-top: 2%;
   font-weight: 1000;
-  font-stretch: expanded
-
+  font-stretch: expanded;
 }
 .ska113 {
   font-size: 4.3rem;
-  font-stretch: expanded
+  font-stretch: expanded;
 }
 .ska113div {
   margin: auto;
@@ -25,13 +24,13 @@
   color: #282828;
   margin-top: 3vh;
 }
-.ska12{
-    margin: auto;
-    margin-top:2vh ;
-    display: flex;
+.ska12 {
+  margin: auto;
+  margin-top: 2vh;
+  display: flex;
   /* border: 1px solid rgb(17, 17, 17); */
-width: 50vw;
-margin-left: 30vw;
+  width: 50vw;
+  margin-left: 30vw;
 }
 .ska121 {
   border: 1px solid rgb(17, 17, 17);
@@ -42,20 +41,56 @@ margin-left: 30vw;
   font-size: 1.1rem;
   border-radius: 5px;
 }
-.ska122{
-  height:6vh;
-  width:15vw;
+.ska122 {
+  height: 6vh;
+  width: 15vw;
   border-radius: 5px;
-  border: 1px solid   #0bb19a;
+  border: 1px solid #0bb19a;
   background-color: #0bb19a;
   color: white;
   font-weight: 600;
   margin-left: 2%;
 }
-.ska123{
+.ska123 {
   font-size: 0.8rem;
   font-weight: 200;
   color: grey;
   margin-top: 1vh;
   margin-left: 18%;
+}
+.ska124 {
+  background-image: url("https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/header/ilus-header-2.svg");
+  height: 50vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 1vw;
+
+  font-weight: 700;
+  margin-top: 1.7%;
+}
+.ska125 {
+  height: 4vh;
+}
+.ska126 {
+  color: black;
+}
+.ska126:hover {
+  color: #0bb19a;
+}
+
+
+/* 2nd pasrt ends from here */
+
+
+
+.ska2{
+  height:40vh;
+  /* border: 1px solid red; */
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+color: #7f8488;
+}
+.ska21{
+  /* margin-top:5% ; */
 }
