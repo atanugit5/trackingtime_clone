@@ -1,0 +1,124 @@
+.prmaindiv
+{
+    
+    display:flex;
+    height:100vh;
+   
+}
+.prleftdiv
+{
+    
+    height:100vh;
+    width:50%;
+    background-color: #1d252c;
+}
+.prrightdiv{
+    border:1px solid green;
+    height:100vh;
+    width:50%;
+    margin:auto;
+    text-align: center;
+    padding-top: 10vh;
+}
+.prbuttondiv
+{   display:grid;
+     height:18vh;
+    /* border:1px solid black; */
+    justify-content: center;
+    margin-top: 5vh;
+    
+}
+.prbuttondiv>button{
+
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    width:18vw;
+    height:5vh;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+.prbuttondiv>button>img{
+  
+    width:10%;
+    height:3vh;
+    margin-top: 2%;
+
+}
+.prbuttondiv>button>span{
+  
+    width:90%;
+    height:3vh;
+    margin-top: 2%;
+
+}
+.prsignup{
+ 
+    height:40vh;
+    font-size: small;
+}
+.prlogin{
+    /* border:1px solid blue; */
+    height:40vh;
+    font-size: small;
+    margin-top: 5vh;
+}
+.prsignup>form
+{    display:grid;
+    height:18vh;
+  
+   justify-content: center;
+    
+}
+.prsignup>form>input{
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    width:18vw;
+    height:6vh;
+    margin-bottom: 2vh;
+}
+.prsignup>div{
+    /* border:1px solid green; */
+    width:18vw;
+    height:7vh;
+}
+.prsignup>form>button{
+    border:1px solid black;
+    border-radius: 5px;
+    width:18vw;
+    height:7vh;
+}
+.prlogin>form
+{    display:grid;
+    height:18vh;
+  
+   justify-content: center;
+    
+}
+.prlogin>form>input{
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    width:18vw;
+    height:6vh;
+    margin-bottom: 2vh;
+}
+
+.prlogin>form>input::placeholder{
+    text-align: center;
+}
+
+.prsignup>form>input::placeholder{
+    text-align: center;
+}
+
+
+.prlogin>form>button{
+    border:1px solid black;
+    border-radius: 5px;
+    width:18vw;
+    height:7vh;
+}
