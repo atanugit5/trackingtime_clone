@@ -16,7 +16,7 @@
     text-align: center;
 }
 .left_image_1>.left_img{
-    width: 38rem;
+    width: 40vw;
     margin-left: 10rem;
 }
 .right_text1>p{
@@ -50,7 +50,7 @@
 }
 
 .left_image_2>.left_img1{
-    width: 38rem;
+    width: 40vw;
     margin-right: 11rem;
 }
 .right_text2>p{
@@ -120,18 +120,18 @@
     text-align: center;
 }
 
-.start_Button{
+/* .start_Button{
    
     margin-left: 40rem;
-}
+} */
 .start_Button>button{
     border: none;
     font-size: 1rem;
     text-transform:uppercase;
     background-color: rgb(0,173,149);
     color: white;
-    height:2.4rem;
-    width:15rem;
+    height:6vh;
+    width:17vw;
     font-weight: 700;
     border-radius: 0.3rem;
     transition:all 0.5s;
@@ -148,7 +148,7 @@
     margin:6rem;
 }
 .card_1>img{
-width:15rem;
+width:17vw;
 margin-left: 5rem;
 /* height:30rem; */
 }
@@ -171,7 +171,7 @@ margin-left: 5rem;
     margin-top: 10rem;
 }
 .image_tasks_section>img{
-width:40rem;
+width:42vw;
 margin-left: 4rem;
 margin-top: -3rem;
 
@@ -181,7 +181,7 @@ margin-top: -3rem;
 }
 .make{
     background-color: rgb(40,40,40);
-    width:35rem;
+    width:36vw;
  color: white;
  font-size: 1.4rem;
  font-weight: 700;
@@ -191,7 +191,7 @@ margin-top: -3rem;
 }
 .assign{
     background-color: rgb(246,248,249);
-    width:35rem;
+    width:36vw;
  color: rgb(0, 0, 0);
  font-size: 1.4rem;
  font-weight: 700;
@@ -201,7 +201,7 @@ margin-top: -3rem;
 }
 .duplicate{
     background-color: rgb(246,248,249);
-    width:35rem;
+    width:36vw;
  color: rgb(0, 0, 0);
  font-size: 1.4rem;
  font-weight: 700;

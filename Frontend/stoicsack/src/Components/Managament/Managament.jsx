@@ -1,9 +1,12 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
 import styles from "./Managament.module.css";
 
 const Managament = () => {
   return (
+    
     <div>
+    <div><Navbar/></div>
       {/*************  heading *********************/}
       <div className={styles.main}>
         <div className={styles.heading}>
