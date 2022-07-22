@@ -6,7 +6,8 @@ const Managament = () => {
   return (
     
     <div>
-    <div><Navbar/></div>
+    <br/>
+    <Navbar/>
       {/*************  heading *********************/}
       <div className={styles.main}>
         <div className={styles.heading}>
@@ -239,7 +240,7 @@ const Managament = () => {
           <button type="button">start free trial</button>
         </div>
       </div>
-
+      <div className={styles.main_cards}>
       <div className={styles.cards}>
         <div className={styles.card_1}>
           <img
@@ -284,6 +285,7 @@ const Managament = () => {
             Avoid data inconsistencies with just one click.
           </p>
         </div>
+      </div>
       </div>
     </div>
   );
