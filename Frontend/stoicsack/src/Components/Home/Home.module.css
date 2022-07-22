@@ -1,5 +1,7 @@
 .ska1 {
   background-color: #f6f8f9;
+  width: 100%;
+
 }
 .ska111 {
   color: #0bb19a;
@@ -90,7 +92,49 @@
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 color: #7f8488;
+margin: 0;
+width: 100%;
+
 }
-.ska21{
-  /* margin-top:5% ; */
+.ska22{
+  margin-top:3% ;
+  display: flex;
+}
+.ska30{
+  margin-top: 25vh;
+  font-weight: 900;
+}
+.ska31{
+  display: flex;
+  /* border: 1px solid black; */
+  height:50vh;
+  gap:2vw;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 13vh;
+}
+.ska311{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 1px solid red; */
+  background-color: white;
+}
+.ska311 img{
+  height: 45vh;
+}
+.ska312{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 1px solid red; */
+  background-color: white;
+}
+.ska312 img{
+  height: 45vh;
+}
+.ska313{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 1px solid red; */
+  background-color: white;
+}
+.ska313 img{
+  height: 45vh;
 }
