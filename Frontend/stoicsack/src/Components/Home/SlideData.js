@@ -27,10 +27,10 @@ export const SliderData = [
         id:7,
         pic:"https://trackingtime.co/wp-content/themes/trackingtime-v4/img/home/logos/color/logo8.jpg"
     },
-    // {
-    //     id:8,
-    //     pic:"https://trackingtime.co/wp-content/themes/trackingtime-v4/img/home/logos/color/logo9.jpg"
-    // },
+    {
+        id:8,
+        pic:"https://trackingtime.co/wp-content/themes/trackingtime-v4/img/home/logos/color/logo9.jpg"
+    },
     // {
     //     id:9,
     //     pic:"https://trackingtime.co/wp-content/themes/trackingtime-v4/img/home/logos/color/logo10.jpg"
