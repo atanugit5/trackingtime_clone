@@ -98,7 +98,7 @@ const Home = () => {
           {/* <Slider > */}
           {SliderData.map((el, i) => (
             <div key={i}>
-              <img style={{ width: "30vh" }} src={el.pic} alt="" />
+              <img style={{ width: "25vh" }} src={el.pic} alt="" />
             </div>
           ))}
           {/* </Slider> */}
