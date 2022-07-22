@@ -9,6 +9,13 @@ export const loginreducer=(state=initialstate,action)=>{
     }
     case(LOGIN_PROCESS):
     {  const {email,username,_id,loggedin,message}=action.payload
+        console.log("in login reducer")
+        if(loggedin)
+        {       localStorage.setItem("userid",JSON.stringify(_id))
+                localStorage.setItem("username",username)
+
+        }
+    
         return {...state,logemail:email,logid:_id,logusername:username,loggedin:loggedin,isLoading:false,message:message||"fine"}
     }
     case (LOGIN_ERROR):
@@ -16,7 +23,8 @@ export const loginreducer=(state=initialstate,action)=>{
             return({...state,isError:true})
         }
         case (LOGOUT):
-            {
+            {   localStorage.removeItem("userid")
+                localStorage.removeItem("username")
                 return({...state,loggedin:false})
             }
     default:

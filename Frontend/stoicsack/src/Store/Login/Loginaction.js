@@ -7,6 +7,7 @@ export const  loginaction=(logindata)=>(dispatch)=>{
     axios.post("https://secret-basin-55427.herokuapp.com/auth/login",logindata)
     .then((resp)=>{
         console.log(resp.data)
+      
         dispatch({type:LOGIN_PROCESS,payload:resp.data})
     })
     .catch((e)=>{
