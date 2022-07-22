@@ -1,0 +1,147 @@
+.parrent {
+  width: 86%;
+  margin: auto;
+  text-align: left;
+  margin-top: 6.5rem;
+}
+.toph1 {
+  font-size: 3.35rem;
+  line-height: 4rem;
+  font-weight: 700;
+  margin-top: -0.4rem;
+}
+.toph2 {
+  font-size: 1.3rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.14em;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+.dwnIp {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #7f8488;
+  margin-top: 1rem;
+  line-height: 1.8rem;
+}
+.inputDiv {
+  width: 58%;
+  height: 4.8rem;
+  border-radius: 0.4rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 770px) {
+  .inputDiv {
+    display: none;
+  }
+}
+.inPutAt {
+  width: 88%;
+  height: 3.5rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+.inPutAt::placeholder {
+  color: black;
+}
+
+.appendAt {
+  width: 88%;
+  margin: auto;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  column-gap: 3%;
+  row-gap: 15vh;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+@media (max-width: 750px) {
+  .appendAt {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* .singleAt {
+  height: 300px;
+  border: 1px solid blue;
+} */
+.logoDivAt1 {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 10px;
+  left: 0rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.logoAt1 {
+  width: 35px;
+  height: 35px;
+  margin-top: 1.2rem;
+}
+.singleAt > h2 {
+  text-align: left;
+  margin-top: 1.4rem;
+}
+.singleAt > p {
+  text-align: left;
+  margin-top: 1.4rem;
+  color: #7f8488;
+  font-weight: 600;
+}
+
+.footInt {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  justify-content: space-between;
+}
+@media(max-width: 750px){
+    .footInt{
+        grid-template-columns: repeat(1, 1fr);  
+    }
+}
+.footInt_Img {
+  width: 90%;
+}
+.footRight {
+  margin-top: 35%;
+  text-align: left;
+}
+.footRight > h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.footRight > p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #7f8488;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.footStore {
+  background-color: black;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 5px;
+  margin: 0.8rem;
+}
+.footStore:hover {
+  background-color: rgb(121, 116, 116);
+  transition: 500ms;
+}
