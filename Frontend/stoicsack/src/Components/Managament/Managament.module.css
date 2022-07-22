@@ -135,13 +135,17 @@
     font-weight: 700;
     border-radius: 0.3rem;
     transition:all 0.5s;
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
 
 }
 .start_Button>button:hover{
     background-color: #000;
     color: white;
     transition:all 0.5s;
+}
+.main_cards{
+    background-color: #fff;
+    padding-top: 1rem;
 }
 .cards{
     display: flex;

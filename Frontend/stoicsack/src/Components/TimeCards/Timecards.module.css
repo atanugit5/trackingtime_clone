@@ -129,4 +129,135 @@
 }
 
 
+.main_tasks_section{
+    display: flex;
+    margin-left: 9rem;
+    margin-top: 10rem;
+}
+.image_tasks_section>img{
+width:38vw;
+margin-left: 4rem;
+margin-top: 1rem;
 
+}
+.right_tasks_section>.salary,.approve,.stay{
+    margin-top: 1.2rem;
+    text-align: left;
+    cursor: pointer;
+}
+.salary{
+    background-color: rgb(40,40,40);
+    width:36vw;
+ color: white;
+ font-size: 1.2rem;
+ font-weight: 700;
+ padding:1.3rem;
+ border-radius: 0.5rem;
+ box-shadow: rgba(0, 0, 0, 0.2) 5px 15px 24px;
+}
+.approve{
+    background-color: rgb(246,248,249);
+    width:36vw;
+ color: rgb(0, 0, 0);
+ font-size: 1.2rem;
+ font-weight: 700;
+ padding:1.3rem;
+  border-radius: 0.5rem;
+ box-shadow: rgba(0, 0, 0, 0.2) 5px 15px 24px;
+}
+.stay{
+    background-color: rgb(246,248,249);
+    width:36vw;
+ color: rgb(0, 0, 0);
+ font-size: 1.2rem;
+ font-weight: 700;
+ padding:1.3rem;
+ border-radius: 0.5rem;
+ box-shadow: rgba(0, 0, 0, 0.2) 5px 15px 24px;
+}
+
+.right_text4>p{
+    font-weight: 700;
+    font-size: 2rem;
+    /* line-height:15rem; */
+    color: #1d252c;
+    padding-top:4rem;
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 17rem;
+    text-align: left;
+}
+
+.right_text4>.right_para{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #7f8488;
+    line-height:1.7rem;
+    margin-top: -1.3rem;
+}
+.right_text4>.right_para>.right_text_a{
+    color: #72777c;
+    text-decoration: underline;
+    font-weight: 700;
+    
+}
+.right_text4>.right_para>.right_text_a:hover{
+    text-decoration: none;
+}
+
+
+
+.heading1 > .heading_para1 {
+    padding-top: 2rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 10rem;
+    color: #282828;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.start_Button>button{
+    border: none;
+    font-size: 0.8rem;
+    text-transform:uppercase;
+    background-color: rgb(0,173,149);
+    color: white;
+    height:6vh;
+    width:17vw;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    border-radius: 0.3rem;
+    transition:all 0.5s;
+    margin-bottom: 6rem;
+
+}
+.start_Button>button:hover{
+    background-color: #000;
+    color: white;
+    transition:all 0.5s;
+}
+
+.main_cards{
+    background-color: #fff;
+    padding-top: 1rem;
+}
+.cards{
+    display: flex;
+    margin:6rem;
+}
+.card_1>img{
+width:17vw;
+margin-left: 5rem;
+/* height:30rem; */
+}
+.card_title{
+    margin-left: 4rem;
+    text-align: center;
+    font-weight:500;
+}
+.card_para{
+    margin-left: 5rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
