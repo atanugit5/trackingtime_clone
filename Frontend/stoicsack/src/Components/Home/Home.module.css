@@ -121,6 +121,8 @@
 .ska311 img {
   height: 45vh;
   margin-top: -12%;
+  width: 100%;
+
 }
 .ska312 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -132,6 +134,7 @@
 .ska312 img {
   height: 45vh;
   margin-top: -10%;
+  width: 100%;
 }
 .ska313 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -143,6 +146,8 @@
 .ska313 img {
   height: 45vh;
   margin-top: -10%;
+  width: 100%;
+
 }
 .ska3112 {
   width: 20vw;
