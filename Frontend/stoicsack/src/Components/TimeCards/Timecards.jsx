@@ -1,7 +1,11 @@
 import React from "react";
 import styles from "./Timecards.module.css";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 const Timecards = () => {
+  React.useEffect(()=>{
+    window.scrollTo(0,0)
+   },[])
   return (
     <div>
     <br/>
@@ -189,6 +193,7 @@ const Timecards = () => {
         </div>
       </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -7,9 +7,9 @@ import { logoutaction } from "../../Store/Login/Loginaction";
 const Navbar = () => {
   let id =localStorage.getItem("userid")||""
   let name =localStorage.getItem("username")||""
-  const {isError,logemail,logid,logusername,loggedin,message}=useSelector((state)=>state.login)
-  console.log("userid in navbar",id)
-  console.log("username in navbar",name)
+   const {isError,logemail,logid,logusername,loggedin,message}=useSelector((state)=>state.login)
+  // console.log("userid in navbar",id)
+  // console.log("username in navbar",name)
   const dispatch=useDispatch()
   let handlelogout=()=>{
      dispatch(logoutaction())
