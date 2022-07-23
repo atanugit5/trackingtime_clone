@@ -207,30 +207,36 @@ const Home = () => {
               without email.
             </p>
           </div>
-          <div className={styles.ska423}><img
+          <div className={styles.ska423}>
+            <img
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/trello.png"
               alt=""
             />
             <h3>Trello</h3>
             <p>
-            Trello is a collaboration tool that organizes your projects into boards.  
-            </p></div>
-          <div className={styles.ska424}><img
+              Trello is a collaboration tool that organizes your projects into
+              boards.
+            </p>
+          </div>
+          <div className={styles.ska424}>
+            <img
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/todoist.png"
               alt=""
             />
             <h3>Todoist</h3>
-            <p>
-            Todoist is a task manager thats useful, fast and easy to use.
-            </p></div>
-          <div className={styles.ska425}><img
+            <p>Todoist is a task manager thats useful, fast and easy to use.</p>
+          </div>
+          <div className={styles.ska425}>
+            <img
               src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/temp/logos/smartsheet.png"
               alt=""
             />
             <h3>Smartsheet</h3>
             <p>
-            Smartsheet is a web-based project and task management and work collaboration software.
-            </p></div>
+              Smartsheet is a web-based project and task management and work
+              collaboration software.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -238,61 +244,142 @@ const Home = () => {
       <div className={styles.ska5}>
         <div style={{ height: "15vh" }}></div>
         <div className={styles.main_cards}>
-      <div className={styles.cards}>
-        <div className={styles.card_1}>
-          <img
-            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/slider-1.svg"
-            alt="/"
-          />
-          <h2 className={styles.card_title}>Timecards Approval</h2>
-          <p className={styles.card_para}>
-            Track clock in and out times with no effort.
-          </p>
-        </div>
+          <div className={styles.cards}>
+            <div className={styles.card_1}>
+              <img
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/slider-1.svg"
+                alt="/"
+              />
+              <h2 className={styles.card_title}>Timecards Approval</h2>
+              <p className={styles.card_para}>
+                Track clock in and out times with no effort.
+              </p>
+            </div>
 
-        <div className={styles.card_1}>
-          <img
-            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/slider-2.svg"
-            alt="/"
-          />
-          <h2 className={styles.card_title}>Budgeting</h2>
-          <p className={styles.card_para}>
-            Keep your projects on time and budget.
-          </p>
-        </div>
+            <div className={styles.card_1}>
+              <img
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/slider-2.svg"
+                alt="/"
+              />
+              <h2 className={styles.card_title}>Budgeting</h2>
+              <p className={styles.card_para}>
+                Keep your projects on time and budget.
+              </p>
+            </div>
 
-        <div className={styles.card_1}>
-          <img
-            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/slider-3.svg"
-            alt="/"
-          />
-          <h2 className={styles.card_title}>Work schedules</h2>
-          <p className={styles.card_para}>
-            Specify when your employees are expected to be at their job.
-          </p>
-        </div>
+            <div className={styles.card_1}>
+              <img
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/slider-3.svg"
+                alt="/"
+              />
+              <h2 className={styles.card_title}>Work schedules</h2>
+              <p className={styles.card_para}>
+                Specify when your employees are expected to be at their job.
+              </p>
+            </div>
 
-        <div className={styles.card_1}>
-          <img
-            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/slider-4.svg"
-            alt="/"
-          />
-          <h2 className={styles.card_title}>Timesheet Audits</h2>
-          <p className={styles.card_para}>
-            Avoid data inconsistencies with just one click.
-          </p>
+            <div className={styles.card_1}>
+              <img
+                src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/slider-4.svg"
+                alt="/"
+              />
+              <h2 className={styles.card_title}>Timesheet Audits</h2>
+              <p className={styles.card_para}>
+                Avoid data inconsistencies with just one click.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
       </div>
 
       {/* 6th part starts from here */}
 
+      <div className={styles.ska6}>
+        <div className={styles.ska61}>
+          <img
+            className={styles.ska611}
+            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/home/bottom-action.svg"
+            alt=""
+          />
+        </div>
+        <div className={styles.ska62}>
+          <h1>Get professional timesheets done in no time!</h1>
+          <p>
+            Sign up today and join thousands of people around the world using
+            TrackingTime to simplify their timesheets.
+          </p>
+          <div className={styles.ska621}>
+          <input
+            className={styles.ska622}
+            type="text"
+            value={skInput1}
+            onChange={(e) => setSkInput1(e.target.value)}
+            placeholder="Your Work Email"
+          />
+          <button className={styles.ska623}>START FOR FREE</button>
+        </div>
+        <p className={styles.ska624} style={{color:"black",fontSize:"0.8rem",fontWeight:"550",marginTop:"0.9vh"}}>14-day PRO trial included</p>
+        <div className={styles.ska625}>
+          <img
+            className={styles.ska626}
+            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/google-key.png"
+            alt=""
+          />
+          <Link to="">
+            <p className={styles.ska627}>Sing in with Google</p>
+          </Link>
+        </div>
+        </div>
+      </div>
 
-<div className={styles.ska6}>
-  <div></div>
-</div>
 
+
+      {/* Footer part */}
+
+
+
+      <div  className={styles.ska7}>
+        <div style={{ height: "35vh" }}></div>
+          <div className={styles.ska71}>
+
+        <div className={styles.ska62}>
+          <img src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/layout/footer/tt.svg" alt="" />
+          <h1>Get Started</h1>
+          <p>
+            Sign up today and join thousands of people around the world using
+            TrackingTime to simplify their timesheets.
+          </p>
+          <div className={styles.ska621}>
+          <input
+            className={styles.ska622}
+            type="text"
+            value={skInput1}
+            onChange={(e) => setSkInput1(e.target.value)}
+            placeholder="Your Work Email"
+          />
+          <button className={styles.ska623}>START FOR FREE</button>
+        </div>
+        <p className={styles.ska624} style={{color:"black",fontSize:"0.8rem",fontWeight:"550",marginTop:"0.9vh"}}>14-day PRO trial included</p>
+        <div className={styles.ska625}>
+          <img
+            className={styles.ska626}
+            src="https://trackingtime.co/wp-content/themes/trackingtime-v4/img/keywords/google-key.png"
+            alt=""
+            />
+          <Link to="">
+            <p className={styles.ska627}>Sing in with Google</p>
+          </Link>
+        </div>
+        </div>
+            </div>
+      </div>
+
+      {/* real footer */}
+
+
+      <div className={styles.ska8}>
+
+      </div>
     </>
   );
 };
