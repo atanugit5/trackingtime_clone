@@ -1,0 +1,138 @@
+.parent {
+  width: 100%;
+  margin-top: -20rem;
+  padding-bottom: 9rem;
+  position: relative;
+  background-color: #f6f8f9;
+  z-index: 1;
+}
+.mainDiv {
+  width: 87%;
+  margin: auto;
+  text-align: left;
+}
+.logoDiv {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border-radius: 10px;
+  left: 0rem;
+  right: 10rem;
+  top: -5.8rem;
+  margin-left: 0.2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: relative;
+}
+.logo {
+  width: 95px;
+  height: 95px;
+  margin-top: 0.8rem;
+  margin-left: .8rem;
+}
+.head1 {
+  font-size: 2.5rem;
+  text-align: left;
+  margin-top: -4rem;
+}
+.aTag {
+  text-decoration: none;
+  margin-left: 4rem;
+}
+.installAt {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 8rem;
+  height: 1.8rem;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-top: 0.2rem;
+}
+.installAt:hover {
+  background-color: white;
+  color: black;
+  transition: 800ms ease-in-out;
+}
+
+.para {
+  width: 580px;
+  margin-top: 7rem;
+}
+.para1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #282828;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+  letter-spacing: 0.04em;
+  margin-bottom: 3rem;
+}
+.para2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #282828;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+  letter-spacing: 0.04em;
+  margin-bottom: 2rem;
+}
+.para3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #7f8488;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+  margin-bottom: 8rem;
+}
+.aboutAt {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1em;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+.visitAt {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 12rem;
+  height: 2rem;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-top: 0.4rem;
+}
+.visitAt:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s linear;
+}
+
+.descrip {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+  color: #7f8488;
+}
+.qus {
+  font-size: 1.2rem;
+  margin-bottom: 0.9rem;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+
+.ans {
+  width: 800px;
+  color: #7f8488;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+  margin-bottom: 3rem;
+}

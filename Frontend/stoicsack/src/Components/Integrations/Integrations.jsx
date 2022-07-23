@@ -1,11 +1,12 @@
 import React from "react";
-import style from "./integration.module.css";
+import style from "./integrations.module.css";
 import Navbar from "../Navbar/Navbar";
 import { IoIosSearch } from "react-icons/io";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useEffect } from "react";
+import svgbackimg from "./inteBack.svg";
 
 export const Integrations = () => {
   const [data, setData] = useState([]);
@@ -24,6 +25,11 @@ export const Integrations = () => {
       .then((r) => setData(r.data));
   };
 
+  // const handleClick = (el) => {
+  //   console.log("el")
+  //   localStorage.setItem("integrationSingleData", JSON.stringify(el));
+  // };
+
   useEffect(() => {
     getData();
   }, []);
@@ -34,7 +40,14 @@ export const Integrations = () => {
       <Navbar />
       <br />
       <br />
-      <div className={style.parrent}>
+      <div
+        className={style.parent}
+        style={{
+          backgroundImage: `url(${svgbackimg})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "25% 80%",
+        }}
+      >
         <h2 className={style.toph2}>TRACKING TIME BUTTON FOR CHROME</h2>
         <h1 className={style.toph1}>
           TrackingTime
@@ -71,15 +84,30 @@ export const Integrations = () => {
           </p>
         </div>
       </div>
+
+      {data.length === 0 && (
+        <h2
+          style={{
+            marginTop: "2rem",
+            color: "red",
+            letterSpacing: ".2em",
+            fontFamily: "'Courier New', Courier, monospace",
+          }}
+        >
+          WE COULDN'T FIND YOUR APP
+        </h2>
+      )}
       <div className={style.appendAt}>
         {data.map((el) => (
-          <div key={el.id} className={style.singleAt}>
+          <Link to={`/integrations/${el.id}`} key={el.id} className={style.sigLink} >
+          <div className={style.singleAt}>
             <div className={style.logoDivAt1}>
               <img src={el.logo} alt={el.title} className={style.logoAt1} />
             </div>
             <h2>{el.title}</h2>
             <p>{el.intro}</p>
           </div>
+          </Link>
         ))}
       </div>
 
