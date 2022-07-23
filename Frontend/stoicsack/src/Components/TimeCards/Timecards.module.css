@@ -251,10 +251,13 @@ width:17vw;
 margin-left: 5rem;
 /* height:30rem; */
 }
+
+
 .card_title{
     margin-left: 4rem;
     text-align: center;
     font-weight:500;
+    
 }
 .card_para{
     margin-left: 5rem;
