@@ -16,8 +16,9 @@ export const Blog = () => {
   };
   useEffect(() => {
     axios
-      .get(`https://blogapi-for-stoic3017.herokuapp.com/blogs/${category}`)
+      .get(`https://stark-wave-37861.herokuapp.com/blogs/${category}`)
       .then((r) => setsitedata(r.data));
+    window.scrollTo(0, 0);
   }, [liActive]);
   return (
     <>
@@ -25,7 +26,6 @@ export const Blog = () => {
         <br />
         <Navbar />
         <br />
-
         <ul className={styles.list_Container}>
           <li
             className={`${styles.list_element} ${
@@ -43,7 +43,14 @@ export const Blog = () => {
           >
             productivity
           </li>
-          <li className={styles.list_element}>remote work</li>
+          <li
+            className={`${styles.list_element} ${
+              liActive === "remote_work" ? styles.activetab : ""
+            }`}
+            onClick={() => focouse_controler("remote_work")}
+          >
+            remote work
+          </li>
           <li
             className={`${styles.list_element} ${
               liActive === "best_practicess" ? styles.activetab : ""
@@ -54,7 +61,7 @@ export const Blog = () => {
           </li>
           <li className={styles.list_element}>resources</li>
         </ul>
-
+        {/* remote_work */}
         <Blogcat category={sitedata} />
       </div>
     </>
