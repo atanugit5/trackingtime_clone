@@ -18,7 +18,7 @@
 }
 .ska113div {
   margin: auto;
-  /* border: 1px solid black; */
+  
   height: 25vh;
   width: 60vw;
   line-height: 10vh;
@@ -336,16 +336,16 @@ font-size: 1.5rem;
       }
       .card_1>img{
       width:17vw;
-      margin-left: 5rem;
+      margin-left: 1rem;
       /* height:30rem; */
       }
       .card_title{
-          margin-left: 4rem;
+          margin-left: 2rem;
           text-align: center;
           font-weight:500;
       }
       .card_para{
-          margin-left: 5rem;
+          margin-left: 3rem;
           font-size: 0.9rem;
           text-align: center;
       }
@@ -437,3 +437,154 @@ font-size: 1.5rem;
       .ska71{
         margin-left: 10vw;
       }
+
+      .ska8{
+        display: grid;
+        grid-template-columns: 20% 10% 22% 10% 10%;
+        grid-template-rows: 50vh 20vh;
+        gap:9vh;
+        margin-top: 20vh;
+        margin-left: 20vh;
+      }
+      .ska80{
+        /* border: 1px solid red; */
+        text-align:left;
+        
+      }
+      .ska80>h6{
+        /* border: 1px solid red; */
+        text-align:left;
+        font-size:0.7rem;
+        
+      }
+      .ska80>p{
+        font-size: 0.8rem;
+        color:#535353;
+        /* line-height: 4.5vh; */
+        margin-top: 2vh;
+      }
+
+      .ska81{
+        
+        text-align:left;
+      }
+      .ska81>h6{
+        
+        text-align:left;
+        font-size:0.7rem;
+        
+      }
+      .ska81>p{
+        font-size: 0.8rem;
+        color:#535353;
+        /* line-height: 4.5vh; */
+        margin-top: 2vh;
+      }
+      .ska82{
+        
+        text-align:left;
+      }
+      .ska82>h6{
+        
+        text-align:left;
+        font-size:0.7rem;
+        
+      }
+      .ska82>p{
+        font-size: 0.8rem;
+        color:#535353;
+        /* line-height: 4.5vh; */
+        margin-top: 2vh;
+      }
+      .ska83{
+        
+        text-align:left;
+      }
+      .ska84{
+        
+        text-align:left;
+      }
+      .ska85{
+        
+        text-align:left;
+        margin-top: -10vh;
+      }
+      .ska86{
+        
+        text-align:left;
+        margin-top: -10vh;
+      }
+      .ska87{
+        
+        text-align:left;
+        margin-top: -10vh;
+      }
+      .ska88{
+        
+        text-align:left;
+      }
+      .ska89{
+        
+        text-align:left;
+      }
+      .ska9{
+        
+        text-align:left;
+      }
+      .ska91{
+        
+        text-align:left;
+      }
+.ska851{
+  display:flex;
+gap:2vw
+}
+.ska851 h3{
+  /* background-color: #282828; */
+  /* height:90vh; */
+  /* width:20vw */
+  
+}
+.skc123 {
+  position: absolute;
+  height: 25vh;
+  
+  width: 10vw;
+  /* top: 7.5vh; */
+  /* right: 22vw; */
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: white;
+  display: none;
+  margin-top: 4vh;
+}
+.ska871{
+  
+  margin-top: 2vh;
+  display: flex;
+}
+
+.ska871:hover .skc123 {
+  display: block;
+  transition: all 2s;
+}
+.ska871 h2{
+color: #20c19e;
+}
+.ska871>h4:hover{
+  transition: all 1s;
+color: #20c19e;
+
+}
+.skc123>LinK:hover{
+  transition: all 0.5s;
+
+  color: #20c19e;
+  
+  }
+  .ska8 p:hover{
+    color: #20c19e;
+  transition: all 0.3s;
+
+
+  }
