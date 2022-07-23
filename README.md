@@ -7,7 +7,7 @@ Team members: <a href="">Prathyush Nair</a>, <a href="">Shubam Kashyap</a>, <a h
 
 Glimpses of our website.
 
-1)	Home page.
+1)	<b>Home page.</b>
 
 ![Upload remote image](https://miro.medium.com/max/1400/1*IQqgctCIQT4onpVVLvrHEA.png)
 
@@ -17,7 +17,10 @@ The homepage also has various elements wherein the user can see some features, t
 
 At the very bottom of the page, we have a footer section with various fields that will allow the user to explore our website.
 
-2)	Login and Signup.
+
+![Upload remote image](https://miro.medium.com/max/1400/1*oZNzWjzyQy4X-XKLcMYguw.png)
+
+2)	<b>Login and Signup.</b>
 
 ![Upload remote image](https://miro.medium.com/max/1400/1*5iOI3dIEXe1fkCyNnSoZCw.png)
 
@@ -35,7 +38,7 @@ The user can revisit the login page by clicking on the “back to login link”.
 
 On entering the correct email and password the user is verified on the backend and if successfully logged in he/she will be routed to the home page.
 
-3)	Project management and timecards page.
+3)	<b>Project management and timecards page.</b>
 
 ![Upload remote image](https://miro.medium.com/max/1400/1*yQUFW18rjtXUnwaQ3ymhlQ.png)
 
@@ -48,7 +51,7 @@ Tracking time also provides the business houses with a time card facility that w
 
 Again here on this page, we have made very good use of CSS to make the page attractive and visually pleasing.
 
-4)	Integrations page.
+4)	<b>Integrations page.</b>
 
 ![Upload remote image](https://miro.medium.com/max/1400/1*4cC117hF0qctqi9B0m_4Cg.png)
 
@@ -60,7 +63,7 @@ To get a search result we have used regex in the backend while designing the API
 
 Upon clicking on any particular tool the user will be redirected to an integration page that will provide a video description of that particular product and all the necessary descriptions associated with that product.
 
-5)	Blog page.
+5)	<b>Blog page.</b>
 
 ![Upload remote image](https://miro.medium.com/max/1400/1*HT2f-19meZAg4tfeZk9Q7Q.png)
 
