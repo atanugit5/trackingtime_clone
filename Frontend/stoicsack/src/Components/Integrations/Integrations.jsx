@@ -25,10 +25,6 @@ export const Integrations = () => {
       .then((r) => setData(r.data));
   };
 
-  // const handleClick = (el) => {
-  //   console.log("el")
-  //   localStorage.setItem("integrationSingleData", JSON.stringify(el));
-  // };
 
   useEffect(() => {
     getData();
