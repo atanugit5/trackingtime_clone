@@ -63,7 +63,7 @@ export const Login = () => {
                 <button><img alt="apple_logo" src="https://pro.trackingtime.co/img/login/apple-logo.png"></img><span>Sign in with Apple</span></button>
                 
             </div>
-            {signuprender ?<span style={{fontSize: "small",fontWeight: "600",paddingLeft:"20px"}}>Sign up with your email</span>:<span style={{fontSize: "small",fontWeight: "600",paddingLeft:"20px"}}>Sign in with your email</span>}
+            {signuprender ?<span className={styles.signuporlogin}>Sign up with your email</span>:<span className={styles.signuporlogin}>Sign in with your email</span>}
             
 
             {/*............ Login form.................... */}
@@ -100,9 +100,9 @@ export const Login = () => {
                   <input onChange={(e)=>handlesignupchange(e)}value={signupdetail.email} name="email" type="text" placeholder='Email'></input>
                   <input onChange={(e)=>handlesignupchange(e)}value={signupdetail.password} name="password" type="password" placeholder='Password'></input>
                   
-                  <div style={{display:"grid",marginTop:"5px"}}>
+                  <div className={styles.termsandcondition}>
                     <input style={{height:"2vh"}}type="checkbox"></input>
-                    <span style={{width:"18vw"}}>I agree with terms of service & Privacy policy</span>
+                    <span >I agree with terms of service & Privacy policy</span>
                   </div>
                   {signupisLoading ? <button className={styles.signupbtn} type="submit">SIGNING UP ...</button>:<button className={styles.signupbtn}type="submit">SIGN UP</button> }
                   <div style={{cursor:'pointer',textDecoration:"underline"}}onClick={showlogin}>Back to login</div>
