@@ -51,7 +51,7 @@ const Footer = () => {
             alt=""
           />
           <Link to="">
-            <p className={styles.ska627}>Sing in with Google</p>
+            <p className={styles.ska627}>Sign in with Google</p>
           </Link>
         </div>
       </div>

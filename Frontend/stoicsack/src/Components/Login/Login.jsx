@@ -47,9 +47,9 @@ export const Login = () => {
     setSignuprender(false)
   }
  
-  let handlelogout=()=>{
-    dispatch(logoutaction())
-  }
+  // let handlelogout=()=>{
+  //   dispatch(logoutaction())
+  // }
   return ( 
     <div className={styles.prmaindiv}>
           <div className={styles.prleftdiv}>

@@ -4,6 +4,7 @@ import styles from "./Blog.module.css";
 import { Blogcat } from "./Blogcat";
 import { useParams, useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 export const Blog = () => {
   const navfunc = useNavigate();
@@ -64,6 +65,7 @@ export const Blog = () => {
         {/* remote_work */}
         <Blogcat category={sitedata} />
       </div>
+      <Footer/>
     </>
   );
 };

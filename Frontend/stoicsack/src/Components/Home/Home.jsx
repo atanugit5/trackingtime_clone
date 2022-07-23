@@ -50,7 +50,9 @@ const Home = () => {
   //     }
   //   ]
   // };
-
+  React.useEffect(()=>{
+    window.scrollTo(0,0)
+   },[])
   return (
     <>
       <br />
@@ -86,7 +88,7 @@ const Home = () => {
             alt=""
           />
           <Link to="">
-            <p className={styles.ska126}>Sing in with Google</p>
+            <p className={styles.ska126}>Sign in with Google</p>
           </Link>
         </div>
       </div>

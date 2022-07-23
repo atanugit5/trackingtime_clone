@@ -1,4 +1,5 @@
 import React from "react";
+
 import styles from "./Blog.module.css";
 export const Blogcat = ({ category }) => {
 
@@ -42,6 +43,7 @@ export const Blogcat = ({ category }) => {
           </div>
         ))}
       </div>
+     
     </div>
   );
 };

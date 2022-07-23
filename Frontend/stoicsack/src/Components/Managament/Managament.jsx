@@ -1,8 +1,13 @@
 import React from "react";
+import Footer from "../Footer/Footer";
+
 import Navbar from "../Navbar/Navbar";
 import styles from "./Managament.module.css";
 
 const Managament = () => {
+  React.useEffect(()=>{
+   window.scrollTo(0,0)
+  },[])
   return (
     
     <div>
@@ -287,6 +292,7 @@ const Managament = () => {
         </div>
       </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { useEffect } from "react";
 import svgbackimg from "./inteBack.svg";
-
+import Footer from "../Footer/Footer"
 export const Integrations = () => {
   const [data, setData] = useState([]);
 
@@ -28,6 +28,7 @@ export const Integrations = () => {
 
   useEffect(() => {
     getData();
+    window.scrollTo(0,0)
   }, []);
 
   return (
@@ -142,6 +143,7 @@ export const Integrations = () => {
           </a>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import style from "./inte.module.css";
 import Navbar from "../Navbar/Navbar";
 import { useParams } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 export const Integration = () => {
   const { id } = useParams();
@@ -19,6 +20,7 @@ export const Integration = () => {
 
   useEffect(() => {
     getData(id);
+    window.scrollTo(0,0)
   }, [id]);
 
 
@@ -104,7 +106,7 @@ export const Integration = () => {
         </div>
       </div>
       ))}
-      
+      <Footer/>
     </>
   );
 };
