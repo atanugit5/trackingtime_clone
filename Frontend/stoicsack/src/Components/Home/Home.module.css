@@ -349,3 +349,91 @@ font-size: 1.5rem;
           font-size: 0.9rem;
           text-align: center;
       }
+      .ska6{
+        margin-top: 30vh;
+        display: flex;
+        gap:18vw
+      }
+      .ska61{
+        height:50vh;
+        width: 35%;
+        background-image: url("https://trackingtime.co/wp-content/themes/trackingtime-v3/img/keywords/lineas.png");
+        background-size: contain;
+        /* border: 1px solid black; */
+        background-repeat:no-repeat ;
+      }
+      .ska611{
+        margin-left:10vw ;
+        margin-top: -10%;
+        height:52vh;
+      }
+      .ska62{
+        /* border:1px solid red; */
+        height:50vh;
+        width:38%;
+        margin-top: -8vh;
+        text-align: left;
+      }
+      .ska62>h1{
+        font-size: 2.3rem;
+      }
+      .ska62>p{
+        margin-top: 3.5vh;
+        font-size: 1rem;
+        line-height: 5vh;
+        color: #85898d;
+      }
+
+
+      .ska621{
+        margin: auto;
+        margin-top: 2vh;
+        display: flex;
+        /* border: 1px solid rgb(17, 17, 17); */
+        width: 37vw;
+        /* margin-left: 30vw; */
+      }
+      .ska622 {
+        border: 1px solid rgb(17, 17, 17);
+        height: 5.5vh;
+        width: 20vw;
+        text-align: center;
+        color: rgb(17, 17, 17);
+        font-size: 1.1rem;
+        border-radius: 5px;
+      }
+      .ska623 {
+        height: 6vh;
+        width: 15vw;
+        border-radius: 5px;
+        border: 1px solid #0bb19a;
+        background-color: #0bb19a;
+        color: white;
+        font-weight: 600;
+        margin-left: 2%;
+      }
+      .ska624 {
+        font-size: 0.2rem;
+        font-weight: 200;
+        /* color: grey; */
+        /* margin-top: -20vh; */
+        margin-left: 62%;
+      }
+      .ska625 {
+        /* height: 50vh; */
+        display: flex;
+        gap: 1vw;
+        font-weight: 700;
+      }
+      .ska626 {
+        height: 4vh;
+      }
+      .ska627 {
+        color: black;
+      }
+      .ska627:hover {
+        color: #0bb19a;
+      }      
+      .ska71{
+        margin-left: 10vw;
+      }
