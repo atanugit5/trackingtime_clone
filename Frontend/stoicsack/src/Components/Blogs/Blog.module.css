@@ -21,7 +21,7 @@
   color: #7d7d7d;
   position: fixed;
   /* top:8.9vh; */
-  z-index: 100;
+  z-index: 1;
   background-color: #fff;
   margin-top: 1.9vh;
   height: 9vh;
