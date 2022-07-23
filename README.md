@@ -3,7 +3,7 @@ Hello there, I and my teammates would like to introduce you to the website we ha
 
 We have cloned trackingtime.co, it is a platform that provides the business with an efficient way to manage time which in turn enables them to manage their projects and improve productivity. Timetracking.co also acts as a platform that connects the user to multiple project management and time tracking software.
 
-Team members: <a href="">Prathyush Nair</a>, <a href="">Shubam Kashyap</a>, <a href="">Jaya Vishwakarma</a>, <a href="">Shivaji Zirpe</a>, and <a href="">Atanu Mondal</a>.
+Team members: <a href="https://github.com/PrathyushNair">Prathyush Nair</a>, <a href="">Shubam Kashyap</a>, <a href="">Jaya Vishwakarma</a>, <a href="">Shivaji Zirpe</a>, and <a href="">Atanu Mondal</a>.
 
 Glimpses of our website.
 
