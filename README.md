@@ -77,3 +77,31 @@ This navigation will indicate the current category the user is looking at with t
 
 On clicking various categories the user can see an entirely different set of data. 
 
+Contributions.
+
+1. Prathyush Nair( Team Lead )
+Implementation of Login/signup page.
+
+2. Shubham Kashyap.
+
+Implementation of the Home page along with navigation bar and footer.
+
+3. Jaya Vishwakarma.
+
+Implementation of Project management and Time cards page.
+
+4. Atanu Mondal.
+
+Implementation of the Integrations page.
+
+5. Shivaji Zirpe.
+
+Implementation of the Blog page.
+
+
+Deployment Link: https://stoic-sack-3017.netlify.app/
+
+Medium blog link: https://medium.com/@prathyu360/cloning-trackingtime-co-website-2976c639e9aa
+
+
+
