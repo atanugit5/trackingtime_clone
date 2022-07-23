@@ -1,4 +1,4 @@
-.parrent {
+.parent {
   width: 86%;
   margin: auto;
   text-align: left;
@@ -79,6 +79,9 @@
   height: 300px;
   border: 1px solid blue;
 } */
+.sigLink{
+  text-decoration: none;
+}
 .logoDivAt1 {
   width: 80px;
   height: 80px;
@@ -96,6 +99,7 @@
 .singleAt > h2 {
   text-align: left;
   margin-top: 1.4rem;
+  color: black;
 }
 .singleAt > p {
   text-align: left;
