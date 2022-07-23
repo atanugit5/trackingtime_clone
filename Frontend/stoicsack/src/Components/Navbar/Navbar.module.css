@@ -16,7 +16,6 @@
 .skc11 {
   margin: auto;
   /* width: 100%; */
-
 }
 .skc11 img {
   width: 15vw;
@@ -79,6 +78,7 @@
   font-weight: 600;
   background-color: white;
   display: none;
+  z-index: 100;
 }
 .skhover {
   display: flex;

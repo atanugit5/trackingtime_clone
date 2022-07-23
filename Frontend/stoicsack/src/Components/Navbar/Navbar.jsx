@@ -66,7 +66,7 @@ const Navbar = () => {
                   fontSize: "0.8rem",
                   fontWeight: "700",
                 }}
-                to="/features"
+                to=""
               >
                 FEATURES
               </Link>
