@@ -5,6 +5,8 @@ We have cloned trackingtime.co, it is a platform that provides the business with
 
 Team members: <a href="https://github.com/PrathyushNair">Prathyush Nair</a>, <a href="https://github.com/skashyap061998">Shubam Kashyap</a>, <a href="https://github.com/Jaya8277">Jaya Vishwakarma</a>, <a href="https://github.com/CodEsHiVaz">Shivaji Zirpe</a>, and <a href="https://github.com/atanugit5">Atanu Mondal</a>.
 
+Deployment Link: https://stoic-sack-3017.netlify.app/
+
 Glimpses of our website.
 
 1)	<b>Home page.</b>
@@ -98,8 +100,6 @@ Implementation of the Integrations page.
 
 Implementation of the Blog page.
 
-
-Deployment Link: https://stoic-sack-3017.netlify.app/
 
 Medium blog link: https://medium.com/@prathyu360/cloning-trackingtime-co-website-2976c639e9aa
 
